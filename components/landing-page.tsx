@@ -867,7 +867,7 @@ export function LandingPage() {
         {/* Footer */}
         <footer className="bg-blue-900 text-white py-12">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-bold mb-4">Raquel Martinez</h3>
                 <p className="mb-4">{t.footer.description}</p>
@@ -885,20 +885,6 @@ export function LandingPage() {
                     <a href="mailto:raquel@example.com">raquel@example.com</a>
                   </li>
                 </ul>
-              </div>
-              <div>
-                <h4 className="text-xl font-semibold mb-4">{t.footer.followUs}</h4>
-                <div className="flex space-x-4">
-                  <a href="#" className="hover:text-blue-300 transition-colors duration-300">
-                    <FacebookIcon className="h-6 w-6" />
-                  </a>
-                  <a href="#" className="hover:text-blue-300 transition-colors duration-300">
-                    <TwitterIcon className="h-6 w-6" />
-                  </a>
-                  <a href="#" className="hover:text-blue-300 transition-colors duration-300">
-                    <InstagramIcon className="h-6 w-6" />
-                  </a>
-                </div>
               </div>
             </div>
             <div className="mt-8 pt-8 border-t border-blue-800 text-center">
