@@ -10,7 +10,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { AwardIcon, BuildingIcon, CheckIcon, ClockIcon, DollarSignIcon, FacebookIcon, FileTextIcon, GlobeIcon, HeadphonesIcon, InstagramIcon, MailIcon, MenuIcon, PhoneIcon, ShieldCheckIcon, SparklesIcon, StarIcon, TargetIcon, TruckIcon, TwitterIcon, UserIcon } from 'lucide-react'
+import { AwardIcon, BuildingIcon, CheckIcon, ClockIcon, DollarSignIcon, FileTextIcon, GlobeIcon, HeadphonesIcon, MailIcon, MenuIcon, PhoneIcon, ShieldCheckIcon, SparklesIcon, StarIcon, TargetIcon, TruckIcon, UserIcon } from 'lucide-react'
 import TawkToWidget from '@/components/TawkToWidget'
 import { toast, Toaster } from 'react-hot-toast';
 
@@ -878,11 +878,11 @@ export function LandingPage() {
                 <ul className="space-y-2">
                   <li className="flex items-center">
                     <PhoneIcon className="h-5 w-5 mr-2" />
-                    <a href="tel:+1234567890">+1 (234) 567-890</a>
+                    <a href="tel:7609986123">760 998 6123</a>
                   </li>
                   <li className="flex items-center">
                     <MailIcon className="h-5 w-5 mr-2" />
-                    <a href="mailto:raquel@example.com">raquel@example.com</a>
+                    <a href="mailto:raquel@alfainsurancesolutions.com">raquel@alfainsurancesolutions.com</a>
                   </li>
                 </ul>
               </div>
